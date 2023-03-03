@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 60px;
+    background: rgb(0, 0, 5);
+}
+
+.container nav {
+    display: flex;
+}
+
+.container nav img {
+    width: 30px;
+    height: 30px;
+    margin: 5px 0px 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.container nav a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.container form {
+    margin: 6px 0px 0px 350px;
+}
+
+.container form input {
+    color: #000;
+    padding: 8px 10px 8px 10px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container nav a h3 {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px 0px 0px 340px;
+}
+.all {
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    padding-top: 70px;
+}
+
+.content {
+    /* float: left; */
+    margin-left: 10px;
+    width: 80%;
+}
+
+.content .video {
+    display: flex;
+
+}
+
+
+.content iframe {
+    width: 95%;
+    height: 600px;
+}
+.content video {
+    width: 95%;
+}
+
+.video-title {
+    margin: 5px 0px 5px 10px;
+}
+
+.row {
+    align-items: center;
+    margin: 20px 10px 10px 20px;
+    display: flex;
+}
+
+.row  h3 {
+    margin-left: 100px;
+    padding: 7px 20px 7px 20px;
+    background: #fff;
+    color: #000;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.films p {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.title-img {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.submit {
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 10px 50px;
+}
+
+.submit input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    width: 400px;
+    height: 30px;
+}
+
+.submit img {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comentariya {
+    margin-left: 50px;
+}
+
+ .content .titles {
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.content .titles img {
+    margin-right: 6px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.coments h4 {
+    width: 200px;
+    border-top: 1px solid #fff;
+    /* border-left: 1px solid #fff; */
+    /* margin: 2px 0px 2px 50px; */
+}
+
+.images {
+
+    width: 25%;
+}
+
+.images a {
+    display: flex;
+    align-items: center;
+}
+
+.images img {
+    margin: 5px 0px 5px 0px;
+    width: 100px;
+    height: 150px;
+}
+
+
+.images .title {
+    margin-left: 9px;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.images .title .number {
+    font-size: 12px;
+    width: 45px;
+    margin: 0px 4px;
+    padding: 2px 4px;
+    background: gold;
+}
+
+.images .title h3{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.images .title h4{
+    color: rgb(201, 201, 201);
+    font-weight: 300;
+    font-size: 13px;
+}
